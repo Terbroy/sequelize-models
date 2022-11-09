@@ -23,4 +23,4 @@ app.get('/', (req, res)=> {
 
 app.use("/api/v1", userRoutes);
 
-app.listen(PORT,()=> console.log('servidor corriendo'+ toString(PORT)));
+app.listen(PORT,()=> console.log('servidor corriendo'+ PORT));
